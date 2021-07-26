@@ -1,49 +1,11 @@
-#name = input('Enter your name')
-#print('Hello', name)
-
-#a = int(input())
-#print(a*2)
-
-#a = int(input())
+#a = int(input())                         #сортировка чисел
 #b = int(input())
-#print(a * b)
+#c = int(input())
+#s = a + b + c;
+#print(max(a,b,c))
+#print(min(a,b,c))
+#print(s - max(a,b,c) - min(a,b,c))
 
-#X = int(input()) задачка про сон Х часов и У минут
-#Y = int(input())
-#print(X*60 + Y)
-
-#X = int(input())
-#print(int(X // 60))
-#print(int(X % 60))
-
-# or - или, and - и, not - унарная, по приоритету выполнения - not, and, or
-# AND - умножение, таким образом: True*False (1*0) = False, умножение на 0 всегда дает 0
-# OR - сложение, таким образом: True+False (1+0) = True, в случае сложения True+True(1+1) - всегда будет True
-
-#x = int(input())                                      #условия
-#if x%2 == 0:
-#    print('Четное')
-#else:
-#    print("Нечетное")
-
-#a = int(input())
-#b = int(input())
-#if b != 0:
-#    print(a / b)
-#else:
-#    print('Деление невозможно')
-#    b = int(input('Введите не нулевое значение, '))
-#    if b == 0:
-#        print('Вы не справились')
-#    else:
-#        print(a / b)
-
-#a, b, h = [int(input()) for i in range(3)]
-#if h >= a and h <= b:
-#    print ('Это нормально')
-#else:
-#    if h < a:
-#        print ('Недосып')
-#    if h > b:
-#        print ('Пересып')
+#n = int(input())
+#print(n,'программист'+('ов' if n%10==0 or 4<n%10<10 or 10<n%100<15 else 'а' if 1<n%10<5 else ''))    #задача про программистов
 
