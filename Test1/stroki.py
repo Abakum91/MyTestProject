@@ -69,13 +69,69 @@
 # else:
 #     print('NOT')
 
-a = input()
-n = len(a)
-x = 'A->Z'
-y = 'a->z'
-j = []
-for i in range(n-1):
-    if a[i] in x and a[i+1] in x:
-        j += 1
-    else:
-        print(n[i], j)
+# a = str(input())                      #Задача про а1б5 и тд
+# sum = 1
+# x = 1
+# y = a[x:x+1]
+# for i in a:
+#     if i in y:
+#         sum += 1
+#     else:
+#         print(i, end='')
+#         print(sum, end='')
+#         sum = 1
+#     x += 1
+#     y = a[x:x+1]
+
+# a = [int(i) for i in input().split()]   #суммирование вводных чисел
+# sum = 0
+# x = 0
+# y = a[x:x+1]
+# for i in a:
+#     sum += i
+#     print(end='')
+# print(sum)
+
+# a = [int(item) for item in input().split()]
+# b = []
+# for i in range(len(a)):
+#     if len(a) == 1:
+#         print(a[0])
+#         break
+#     else:
+#         if i == 0:
+#             b.append(a[-1] + a[i + 1])
+#         elif i > 0  and i != len(a) - 1:
+#             b.append(a[i - 1] + a[i + 1])
+#         else:
+#             b.append(a[i - 1] + a[0])
+# if b != 0:
+#     for i in b:
+#         print(i, end=' ')
+
+# numbers = [int(i) for i in input().split(' ')]                   #задача вывести повторяющиеся числа
+# numbers.sort()
+# final = []
+# for i in range(len(numbers)):
+#     if len(numbers) == 1:
+#         final = [] # при подаче одного элемента не выдает его же в результате
+#     elif numbers[i] == numbers[i-1]:
+#         if numbers[i] not in final:
+#             final.append(numbers[i])
+# # if len(final) == 0:
+# #     print(' ')
+# # else:
+# #     for i in final:
+# #         print(i, end=' ')
+# # этот кусок вставляем если нужен возврат ' ' при отсутствии повторений
+#
+# for i in final:
+#     print(i, end=' ') # если не нужен возврат ' ' при отсутствии повторений
+
+# n = 3
+# a = [[0]*n]*n
+# a[0][0] = 5
+# print(a)
+#
+# a = [[0]*n for i in range(n)]
+# a = [[0 for j in range(n)] for i in range(n)]
