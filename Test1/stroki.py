@@ -135,3 +135,60 @@
 #
 # a = [[0]*n for i in range(n)]
 # a = [[0 for j in range(n)] for i in range(n)]
+
+# a = b = 0
+# while True:
+#    n = int(input())
+#    a += n
+#    b += n ** 2
+#    if a == 0:
+#        print(b)
+#        break
+
+# list, n=[], int(input())
+# for i in range(n):
+#     count = 0
+#     if n == 1:
+#         break
+#     while count < i + 1:
+#         list.append(i + 1)
+#         count += 1
+#         if len(list) == n:
+#             print(*list)
+#             break
+
+# dlina = int(input())
+# tek_ch = 1   #хранение текущего числа
+# i = 1
+# kol = 0   #номер позиции в последовательности одного числа
+# while i < dlina + 1:
+#     if tek_ch == kol + 1:   #условие перехода к след. числу
+#         print(tek_ch, end=' ')
+#         i += 1
+#         kol = 0
+#         tek_ch +=1
+#         continue
+#     else:
+#         print(tek_ch, end=' ')
+#         kol += 1
+#     i += 1
+
+# print('*' * 17, '*               *', '*               *', '*' * 17, sep='\n')
+
+# print('*'*17, end=' ')
+# print('*', '*', end=' ', sep='               ',)
+# print('*', '*', end=' ', sep='               ')
+# print('*', '*', end=' ', sep='               ')
+# print('*'*17)
+
+# lst = [int(i) for i in input().split()]   # 2.6
+# x = int(input())
+#
+# indices = [pos for pos, num in enumerate(lst) if num == x]
+#
+# if indices:
+#     for i in indices:
+#         print(i, end=' ')
+# else:
+#     print("Отсутствует")
+
